@@ -42,7 +42,7 @@ class ModuleMilligram extends \Frontend {
         
         if ($objLayout->addMilligram) {      
             //include css
-            if ($objLayout->mil_source_css != 'none') {
+            if ($objLayout->milligram_source_css != 'none') {
                 if ($objLayout->milligram_source_css == 'local') {
                     $source = $baseurl.'/system/modules/kbits_milligram/assets/css/milligram.min.css'; 
                 } else {
