@@ -46,7 +46,7 @@ class ModuleMilligram extends \Frontend {
                 if ($objLayout->milligram_source_css == 'local') {
                     $source = $baseurl.'/system/modules/kbits_milligram/assets/css/milligram.min.css'; 
                 } else {
-                   $source = $protocol.'//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css'; 
+                   $source = $protocol.'cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css'; 
                 }   
                 $objPageRegular->Template->framework = '<link' . ($blnXhtml ? ' type="text/css"' : '') .' rel="stylesheet" href="'.$source.'">' . "\n".$objPageRegular->Template->framework;
             }
